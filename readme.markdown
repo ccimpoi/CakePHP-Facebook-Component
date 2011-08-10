@@ -8,4 +8,4 @@
 
 Component that allows a Cake app to work as a Facebook app.
 I originaly wrote it to extend an existing Cake app to work on Facebook.
-So for now I only have a /fb/ route in one controller as the app canvas.
+So for now I only have a /fb/* route that points to one controller with a 'fb' prefix in the methods.
