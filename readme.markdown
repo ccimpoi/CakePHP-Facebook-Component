@@ -12,6 +12,6 @@ So for now I only have a /fb/* route that points to one controller with a 'fb' p
 
 ## Setup
 
-Most important thing is that this requires Configure::write('Security.level', 'low'); in your app/config/core.php.
+Most important thing is that this is built on Cake 1.2 and requires Configure::write('Security.level', 'low'); in your app/config/core.php.
 This is because otherwise Cake does a ini_set('session.referer_check', $this->host); in CakeSession and that breaks the FB flow.
 Put the stuff you find in bootstrap.php in your bootstrap with your values.
